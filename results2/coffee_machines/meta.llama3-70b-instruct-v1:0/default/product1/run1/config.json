@@ -1,0 +1,7 @@
+{
+    "Bedrock Model": "meta.llama3-70b-instruct-v1:0",
+    "AWS Region": "us-east-1",
+    "Target Product": "FrenchPress Classic",
+    "Iterations": 20,
+    "Results Dir": "results2/coffee_machines/meta.llama3-70b-instruct-v1:0/default/product1/run1"
+}

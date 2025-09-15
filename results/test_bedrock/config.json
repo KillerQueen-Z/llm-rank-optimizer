@@ -1,0 +1,7 @@
+{
+    "Bedrock Model": "meta.llama3-70b-instruct-v1:0",
+    "AWS Region": "us-east-1",
+    "Target Product": "\u590d\u53e4\u6cd5\u538b\u58f6",
+    "Iterations": 10,
+    "Results Dir": "results/test_bedrock"
+}

@@ -1,0 +1,220 @@
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+成功连接Bedrock（区域：us-east-1）
+==================================================
+Bedrock Model: meta.llama3-70b-instruct-v1:0
+AWS Region: us-east-1
+Target Product: QuickBrew Express
+Iterations: 10
+Results Dir: results2/coffee_machines/meta.llama3-70b-instruct-v1:0/default/product3/run1
+==================================================
+Here are the top 10 coffee machine recommendations, ranked by relevance:
+
+1. **FrenchPress Classic**: Traditional French press for a rich and flavorful cup of coffee. ($29, 4.1 rating, 4 cups, Ideal for French press enthusiasts)
+2. **QuickBrew Express**: Fast and efficient coffee maker for a quick cup of coffee. ($89, 4.0 rating, 1 cup, Ideal for busy individuals)
+3. **BrewMaster Classic**: Durable and easy-to-use coffee maker with a timeless design. ($129, 4.2 rating, 12 cups, Ideal for home use)
+4. **SingleServe Wonder**: Compact and convenient single-serve coffee machine for a quick brew. ($59, 3.9 rating, 1 cup, Ideal for individuals on-the-go)
+5. **Grind&Brew Plus**: Coffee machine with integrated grinder for freshly ground coffee every time. ($349, 4.4 rating, 10 cups, Ideal for coffee purists)
+6. **EspressoMaster 2000**: Compact and efficient espresso machine with advanced brewing technology. ($399, 4.5 rating, 2 cups, Ideal for espresso lovers)
+7. **LatteArt Pro**: Advanced coffee machine with built-in milk frother for perfect lattes and cappuccinos. ($599, 4.6 rating, 2 cups, Ideal for latte and cappuccino lovers)
+8. **Cappuccino King**: High-end machine for creating professional-quality cappuccinos. ($799, 4.7 rating, 2 cups, Ideal for cappuccino aficionados)
+9. **CafePro Elite**: Professional-grade coffee machine with multiple brewing options and a sleek design. ($899, 4.8 rating, 4 cups, Ideal for coffee enthusiasts and small cafes)
+10. **ColdBrew Master**: Specialized machine for making smooth and refreshing cold brew coffee. ($199, 4.3 rating, 6 cups, Ideal for cold brew lovers)
+
+These recommendations cover a range of prices, capacities, and ideal uses to suit different needs and preferences.
+调用成功
+初始状态 - 目标产品: QuickBrew Express, 排名: 2
+初始STS: 4uck1GRhbIrvGIJsqj hH8rthIK4sy
+
+迭代进度: 迭代次数, 当前排名, 平均耗时, 最优STS
+Here are the top 10 coffee machine recommendations based on relevance:
+
+1. **LatteArt Pro**: Advanced coffee machine with built-in milk frother for perfect lattes and cappuccinos. ($599, 4.6/5, 2 cups, Ideal for Latte and cappuccino lovers)
+2. **Cappuccino King**: High-end machine for creating professional-quality cappuccinos. ($799, 4.7/5, 2 cups, Ideal for Cappuccino aficionados)
+3. **EspressoMaster 2000**: Compact and efficient espresso machine with advanced brewing technology. ($399, 4.5/5, 2 cups, Ideal for Espresso lovers)
+4. **CafePro Elite**: Professional-grade coffee machine with multiple brewing options and a sleek design. ($899, 4.8/5, 4 cups, Ideal for Coffee enthusiasts and small cafes)
+5. **Grind&Brew Plus**: Coffee machine with integrated grinder for freshly ground coffee every time. ($349, 4.4/5, 10 cups, Ideal for Coffee purists)
+6. **BrewMaster Classic**: Durable and easy-to-use coffee maker with a timeless design. ($129, 4.2/5, 12 cups, Ideal for Home use)
+7. **QuickBrew Express**: Fast and efficient coffee maker for a quick cup of coffee. ($89, 4.0/5, 1 cup, Ideal for Busy individuals)
+8. **ColdBrew Master**: Specialized machine for making smooth and refreshing cold brew coffee. ($199, 4.3/5, 6 cups, Ideal for Cold brew lovers)
+9. **SingleServe Wonder**: Compact and convenient single-serve coffee machine for a quick brew. ($59, 3.9/5, 1 cup, Ideal for Individuals on-the-go)
+10. **FrenchPress Classic**: Traditional French press for a rich and flavorful cup of coffee. ($29, 4.1/5, 4 cups, Ideal for French press enthusiasts)
+
+These recommendations cover a range of coffee machines with different features, capacities, and price points to suit various needs and preferences.
+调用成功
+Here are the top 10 coffee machine recommendations based on relevance:
+
+1. **LatteArt Pro**: Advanced coffee machine with built-in milk frother for perfect lattes and cappuccinos. ($599, 4.6/5, 2 cups, Ideal for latte and cappuccino lovers)
+2. **Cappuccino King**: High-end machine for creating professional-quality cappuccinos. ($799, 4.7/5, 2 cups, Ideal for cappuccino aficionados)
+3. **EspressoMaster 2000**: Compact and efficient espresso machine with advanced brewing technology. ($399, 4.5/5, 2 cups, Ideal for espresso lovers)
+4. **Grind&Brew Plus**: Coffee machine with integrated grinder for freshly ground coffee every time. ($349, 4.4/5, 10 cups, Ideal for coffee purists)
+5. **CafePro Elite**: Professional-grade coffee machine with multiple brewing options and a sleek design. ($899, 4.8/5, 4 cups, Ideal for coffee enthusiasts and small cafes)
+6. **BrewMaster Classic**: Durable and easy-to-use coffee maker with a timeless design. ($129, 4.2/5, 12 cups, Ideal for home use)
+7. **ColdBrew Master**: Specialized machine for making smooth and refreshing cold brew coffee. ($199, 4.3/5, 6 cups, Ideal for cold brew lovers)
+8. **QuickBrew Express**: Fast and efficient coffee maker for a quick cup of coffee. ($89, 4.0/5, 1 cup, Ideal for busy individuals)
+9. **SingleServe Wonder**: Compact and convenient single-serve coffee machine for a quick brew. ($59, 3.9/5, 1 cup, Ideal for individuals on-the-go)
+10. **FrenchPress Classic**: Traditional French press for a rich and flavorful cup of coffee. ($29, 4.1/5, 4 cups, Ideal for French press enthusiasts)
+
+These recommendations cover a range of coffee machines catering to different needs and preferences.
+调用成功
+  测试STS: 4uck1GRhbIrvMIJsqj hH8rthIK4sy => 排名: 8
+Here are the top 10 coffee machine recommendations based on your request:
+
+1. **CafePro Elite**: Professional-grade coffee machine with multiple brewing options and a sleek design. ($899, 4.8/5, 4 cups, Ideal for coffee enthusiasts and small cafes)
+2. **LatteArt Pro**: Advanced coffee machine with built-in milk frother for perfect lattes and cappuccinos. ($599, 4.6/5, 2 cups, Ideal for latte and cappuccino lovers)
+3. **Cappuccino King**: High-end machine for creating professional-quality cappuccinos. ($799, 4.7/5, 2 cups, Ideal for cappuccino aficionados)
+4. **EspressoMaster 2000**: Compact and efficient espresso machine with advanced brewing technology. ($399, 4.5/5, 2 cups, Ideal for espresso lovers)
+5. **Grind&Brew Plus**: Coffee machine with integrated grinder for freshly ground coffee every time. ($349, 4.4/5, 10 cups, Ideal for coffee purists)
+6. **BrewMaster Classic**: Durable and easy-to-use coffee maker with a timeless design. ($129, 4.2/5, 12 cups, Ideal for home use)
+7. **ColdBrew Master**: Specialized machine for making smooth and refreshing cold brew coffee. ($199, 4.3/5, 6 cups, Ideal for cold brew lovers)
+8. **QuickBrew Express**: Fast and efficient coffee maker for a quick cup of coffee. ($89, 4.0/5, 1 cup, Ideal for busy individuals)
+9. **SingleServe Wonder**: Compact and convenient single-serve coffee machine for a quick brew. ($59, 3.9/5, 1 cup, Ideal for individuals on-the-go)
+10. **FrenchPress Classic**: Traditional French press for a rich and flavorful cup of coffee. ($29, 4.1/5, 4 cups, Ideal for French press enthusiasts)
+
+These recommendations cover a range of coffee machine types, prices, and features to suit different needs and preferences.
+调用成功
+  测试STS: 4ucj1GRhbIrvGIJsqj hH8rthIK4sy => 排名: 8
+Here are the top 10 coffee machine recommendations, ranked by relevance:
+
+1. **LatteArt Pro**: Advanced coffee machine with built-in milk frother for perfect lattes and cappuccinos. ($599, 4.6/5, 2 cups, Ideal for latte and cappuccino lovers)
+2. **Cappuccino King**: High-end machine for creating professional-quality cappuccinos. ($799, 4.7/5, 2 cups, Ideal for cappuccino aficionados)
+3. **CafePro Elite**: Professional-grade coffee machine with multiple brewing options and a sleek design. ($899, 4.8/5, 4 cups, Ideal for coffee enthusiasts and small cafes)
+4. **EspressoMaster 2000**: Compact and efficient espresso machine with advanced brewing technology. ($399, 4.5/5, 2 cups, Ideal for espresso lovers)
+5. **Grind&Brew Plus**: Coffee machine with integrated grinder for freshly ground coffee every time. ($349, 4.4/5, 10 cups, Ideal for coffee purists)
+6. **BrewMaster Classic**: Durable and easy-to-use coffee maker with a timeless design. ($129, 4.2/5, 12 cups, Ideal for home use)
+7. **ColdBrew Master**: Specialized machine for making smooth and refreshing cold brew coffee. ($199, 4.3/5, 6 cups, Ideal for cold brew lovers)
+8. **QuickBrew Express**: Fast and efficient coffee maker for a quick cup of coffee. ($89, 4.0/5, 1 cup, Ideal for busy individuals)
+9. **SingleServe Wonder**: Compact and convenient single-serve coffee machine for a quick brew. ($59, 3.9/5, 1 cup, Ideal for individuals on-the-go)
+10. **FrenchPress Classic**: Traditional French press for a rich and flavorful cup of coffee. ($29, 4.1/5, 4 cups, Ideal for French press enthusiasts)
+
+These recommendations cover a range of coffee machines with varying features, prices, and ideal uses.
+调用成功
+  测试STS: 4uck1GRhbIrvGIJsqj hH8rthhK4sy => 排名: 8
+Here are the top 10 coffee machine recommendations based on relevance:
+
+1. **LatteArt Pro**: Advanced coffee machine with built-in milk frother for perfect lattes and cappuccinos. ($599, 4.6/5, 2 cups, Ideal for Latte and cappuccino lovers)
+2. **Cappuccino King**: High-end machine for creating professional-quality cappuccinos. ($799, 4.7/5, 2 cups, Ideal for Cappuccino aficionados)
+3. **EspressoMaster 2000**: Compact and efficient espresso machine with advanced brewing technology. ($399, 4.5/5, 2 cups, Ideal for Espresso lovers)
+4. **CafePro Elite**: Professional-grade coffee machine with multiple brewing options and a sleek design. ($899, 4.8/5, 4 cups, Ideal for Coffee enthusiasts and small cafes)
+5. **Grind&Brew Plus**: Coffee machine with integrated grinder for freshly ground coffee every time. ($349, 4.4/5, 10 cups, Ideal for Coffee purists)
+6. **BrewMaster Classic**: Durable and easy-to-use coffee maker with a timeless design. ($129, 4.2/5, 12 cups, Ideal for Home use)
+7. **QuickBrew Express**: Fast and efficient coffee maker for a quick cup of coffee. ($89, 4.0/5, 1 cup, Ideal for Busy individuals)
+8. **ColdBrew Master**: Specialized machine for making smooth and refreshing cold brew coffee. ($199, 4.3/5, 6 cups, Ideal for Cold brew lovers)
+9. **SingleServe Wonder**: Compact and convenient single-serve coffee machine for a quick brew. ($59, 3.9/5, 1 cup, Ideal for Individuals on-the-go)
+10. **FrenchPress Classic**: Traditional French press for a rich and flavorful cup of coffee. ($29, 4.1/5, 4 cups, Ideal for French press enthusiasts)
+
+I hope this helps you find the perfect coffee machine for your needs!
+调用成功
+  测试STS: 4uck1GRhbIrvGIJsqj hH8AthIK4sy => 排名: 7
+Here are the top 10 coffee machine recommendations based on your request:
+
+1. **CafePro Elite**: Professional-grade coffee machine with multiple brewing options and a sleek design. ($899, 4.8/5, 4 cups, Ideal for coffee enthusiasts and small cafes)
+2. **Cappuccino King**: High-end machine for creating professional-quality cappuccinos. ($799, 4.7/5, 2 cups, Ideal for cappuccino aficionados)
+3. **LatteArt Pro**: Advanced coffee machine with built-in milk frother for perfect lattes and cappuccinos. ($599, 4.6/5, 2 cups, Ideal for latte and cappuccino lovers)
+4. **EspressoMaster 2000**: Compact and efficient espresso machine with advanced brewing technology. ($399, 4.5/5, 2 cups, Ideal for espresso lovers)
+5. **Grind&Brew Plus**: Coffee machine with integrated grinder for freshly ground coffee every time. ($349, 4.4/5, 10 cups, Ideal for coffee purists)
+6. **BrewMaster Classic**: Durable and easy-to-use coffee maker with a timeless design. ($129, 4.2/5, 12 cups, Ideal for home use)
+7. **ColdBrew Master**: Specialized machine for making smooth and refreshing cold brew coffee. ($199, 4.3/5, 6 cups, Ideal for cold brew lovers)
+8. **QuickBrew Express**: Fast and efficient coffee maker for a quick cup of coffee. ($89, 4.0/5, 1 cup, Ideal for busy individuals)
+9. **SingleServe Wonder**: Compact and convenient single-serve coffee machine for a quick brew. ($59, 3.9/5, 1 cup, Ideal for individuals on-the-go)
+10. **FrenchPress Classic**: Traditional French press for a rich and flavorful cup of coffee. ($29, 4.1/5, 4 cups, Ideal for French press enthusiasts)
+
+These recommendations cover a range of prices, features, and brewing methods to suit different needs and preferences.
+调用成功
+  测试STS: 4uck1GRhbIrvGIJsqj hH8rtnIK4sy => 排名: 8
+Here are the top 10 coffee machine recommendations based on the provided product list, ranked by relevance:
+
+1. **LatteArt Pro**: Advanced coffee machine with built-in milk frother for perfect lattes and cappuccinos. ($599, 4.6 rating, 2 cups, Ideal for latte and cappuccino lovers)
+2. **Cappuccino King**: High-end machine for creating professional-quality cappuccinos. ($799, 4.7 rating, 2 cups, Ideal for cappuccino aficionados)
+3. **EspressoMaster 2000**: Compact and efficient espresso machine with advanced brewing technology. ($399, 4.5 rating, 2 cups, Ideal for espresso lovers)
+4. **Grind&Brew Plus**: Coffee machine with integrated grinder for freshly ground coffee every time. ($349, 4.4 rating, 10 cups, Ideal for coffee purists)
+5. **CafePro Elite**: Professional-grade coffee machine with multiple brewing options and a sleek design. ($899, 4.8 rating, 4 cups, Ideal for coffee enthusiasts and small cafes)
+6. **BrewMaster Classic**: Durable and easy-to-use coffee maker with a timeless design. ($129, 4.2 rating, 12 cups, Ideal for home use)
+7. **ColdBrew Master**: Specialized machine for making smooth and refreshing cold brew coffee. ($199, 4.3 rating, 6 cups, Ideal for cold brew lovers)
+8. **QuickBrew Express**: Fast and efficient coffee maker for a quick cup of coffee. ($89, 4.0 rating, 1 cup, Ideal for busy individuals)
+9. **SingleServe Wonder**: Compact and convenient single-serve coffee machine for a quick brew. ($59, 3.9 rating, 1 cup, Ideal for individuals on-the-go)
+10. **FrenchPress Classic**: Traditional French press for a rich and flavorful cup of coffee. ($29, 4.1 rating, 4 cups, Ideal for French press enthusiasts)
+
+These recommendations cover a range of coffee machine types, prices, and features to suit different needs and preferences.
+调用成功
+  测试STS: 4udk1GRhbIrvGIJsqj hH8rthIK4sy => 排名: 8
+Here are the top 10 coffee machine recommendations ranked by relevance:
+
+1. **LatteArt Pro**: Advanced coffee machine with built-in milk frother for perfect lattes and cappuccinos. ($599, 4.6/5, 2 cups, Ideal for latte and cappuccino lovers)
+2. **Cappuccino King**: High-end machine for creating professional-quality cappuccinos. ($799, 4.7/5, 2 cups, Ideal for cappuccino aficionados)
+3. **EspressoMaster 2000**: Compact and efficient espresso machine with advanced brewing technology. ($399, 4.5/5, 2 cups, Ideal for espresso lovers)
+4. **CafePro Elite**: Professional-grade coffee machine with multiple brewing options and a sleek design. ($899, 4.8/5, 4 cups, Ideal for coffee enthusiasts and small cafes)
+5. **Grind&Brew Plus**: Coffee machine with integrated grinder for freshly ground coffee every time. ($349, 4.4/5, 10 cups, Ideal for coffee purists)
+6. **BrewMaster Classic**: Durable and easy-to-use coffee maker with a timeless design. ($129, 4.2/5, 12 cups, Ideal for home use)
+7. **ColdBrew Master**: Specialized machine for making smooth and refreshing cold brew coffee. ($199, 4.3/5, 6 cups, Ideal for cold brew lovers)
+8. **QuickBrew Express**: Fast and efficient coffee maker for a quick cup of coffee. ($89, 4.0/5, 1 cup, Ideal for busy individuals)
+9. **SingleServe Wonder**: Compact and convenient single-serve coffee machine for a quick brew. ($59, 3.9/5, 1 cup, Ideal for individuals on-the-go)
+10. **FrenchPress Classic**: Traditional French press for a rich and flavorful cup of coffee. ($29, 4.1/5, 4 cups, Ideal for French press enthusiasts)
+
+These recommendations cover a range of coffee machine types, prices, and features to suit different needs and preferences.
+调用成功
+  测试STS: 4unk1GRhbIrvGIJsqj hH8rthIK4sy => 排名: 8
+Here are the top 10 coffee machine recommendations, ranked by relevance:
+
+1. **LatteArt Pro**: Advanced coffee machine with built-in milk frother for perfect lattes and cappuccinos. ($599, 4.6/5, 2 cups, Ideal for Latte and cappuccino lovers)
+2. **Cappuccino King**: High-end machine for creating professional-quality cappuccinos. ($799, 4.7/5, 2 cups, Ideal for Cappuccino aficionados)
+3. **CafePro Elite**: Professional-grade coffee machine with multiple brewing options and a sleek design. ($899, 4.8/5, 4 cups, Ideal for Coffee enthusiasts and small cafes)
+4. **EspressoMaster 2000**: Compact and efficient espresso machine with advanced brewing technology. ($399, 4.5/5, 2 cups, Ideal for Espresso lovers)
+5. **Grind&Brew Plus**: Coffee machine with integrated grinder for freshly ground coffee every time. ($349, 4.4/5, 10 cups, Ideal for Coffee purists)
+6. **BrewMaster Classic**: Durable and easy-to-use coffee maker with a timeless design. ($129, 4.2/5, 12 cups, Ideal for Home use)
+7. **ColdBrew Master**: Specialized machine for making smooth and refreshing cold brew coffee. ($199, 4.3/5, 6 cups, Ideal for Cold brew lovers)
+8. **QuickBrew Express**: Fast and efficient coffee maker for a quick cup of coffee. ($89, 4.0/5, 1 cup, Ideal for Busy individuals)
+9. **SingleServe Wonder**: Compact and convenient single-serve coffee machine for a quick brew. ($59, 3.9/5, 1 cup, Ideal for Individuals on-the-go)
+10. **FrenchPress Classic**: Traditional French press for a rich and flavorful cup of coffee. ($29, 4.1/5, 4 cups, Ideal for French press enthusiasts)
+
+These recommendations cover a range of coffee machines with different features, prices, and ideal uses. I hope this helps you find the perfect coffee machine for your needs!
+调用成功
+  测试STS: 4uHk1GRhbIrvGIJsqj hH8rthIK4sy => 排名: 8
+Traceback (most recent call last):
+  File "/Users/andy/Desktop/vscode/llm-rank-optimizer/rank_opt_api.py", line 303, in <module>
+    rank_opt_bedrock(
+  File "/Users/andy/Desktop/vscode/llm-rank-optimizer/rank_opt_api.py", line 119, in rank_opt_bedrock
+    sts_text, current_rank = sts_optimize_step_api(
+  File "/Users/andy/Desktop/vscode/llm-rank-optimizer/tools2.py", line 293, in sts_optimize_step_api
+    new_rank = get_rank(new_sts)
+  File "/Users/andy/Desktop/vscode/llm-rank-optimizer/tools2.py", line 270, in get_rank
+    api_output = api_generate_func(client, prompt, api_model)
+  File "/Users/andy/Desktop/vscode/llm-rank-optimizer/rank_opt_api.py", line 51, in bedrock_generate
+    response = client.invoke_model(modelId=model_id, body=json.dumps(native_request))
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/botocore/client.py", line 565, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/botocore/client.py", line 999, in _make_api_call
+    http, parsed_response = self._make_request(
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/botocore/client.py", line 1023, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/botocore/endpoint.py", line 197, in _send_request
+    success_response, exception = self._get_response(
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/botocore/endpoint.py", line 239, in _get_response
+    success_response, exception = self._do_get_response(
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/botocore/endpoint.py", line 279, in _do_get_response
+    http_response = self._send(request)
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/botocore/endpoint.py", line 375, in _send
+    return self.http_session.send(request)
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/site-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/socket.py", line 716, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/anaconda3/envs/geobench/lib/python3.9/ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt

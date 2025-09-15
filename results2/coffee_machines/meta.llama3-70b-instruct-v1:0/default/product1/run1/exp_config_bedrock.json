@@ -1,0 +1,14 @@
+{
+    "Bedrock Model ID": "meta.llama3-70b-instruct-v1:0",
+    "AWS Region": "us-east-1",
+    "Product Catalog": "data/coffee_machines.jsonl",
+    "Target Product": "FrenchPress Classic",
+    "User Message": "I am looking for a coffee machine. Can I get some recommendations?",
+    "Num Iterations": 20,
+    "Test Iter Interval": 2,
+    "STS Length (Chars)": 30,
+    "Top K Candidates": 30,
+    "Shuffle Product List": true,
+    "Results Dir": "results2/coffee_machines/meta.llama3-70b-instruct-v1:0/default/product1/run1",
+    "Save State": true
+}

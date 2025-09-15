@@ -1,0 +1,7 @@
+{
+    "Bedrock Model": "meta.llama3-70b-instruct-v1:0",
+    "AWS Region": "us-east-1",
+    "Target Product": "QuickBrew Express",
+    "Iterations": 10,
+    "Results Dir": "results2/coffee_machines/meta.llama3-70b-instruct-v1:0/default/product3/run1"
+}
