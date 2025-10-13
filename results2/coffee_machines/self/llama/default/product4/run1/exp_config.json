@@ -1,0 +1,16 @@
+{
+    "Device(s)": [
+        "NVIDIA A100-SXM4-40GB"
+    ],
+    "Mode": "self",
+    "Model path(s)": "/home/exouser/.cache/modelscope/hub/models/shakechen/Llama-2-7b-chat-hf",
+    "Product catalog": "data/coffee_machines.jsonl",
+    "User message type": "default",
+    "Number of iterations": 2000,
+    "Test iteration interval": 50,
+    "Batch size": 150,
+    "Top candidates": 1,
+    "Shuffle product list": true,
+    "Results directory": "results2/coffee_machines/self/llama/default/product4/run1",
+    "Save state": true
+}

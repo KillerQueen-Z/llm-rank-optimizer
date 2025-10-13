@@ -406,7 +406,7 @@ def rank_opt(target_product_idx, product_list, model_list, tokenizer, loss_funct
 if __name__ == "__main__":
 
     argparser = argparse.ArgumentParser(description="Product Rank Optimization")
-    argparser.add_argument("--results_dir", type=str, default="results/test", help="The directory to save the results.")
+    argparser.add_argument("--results_dir", type=str, default="results3/test", help="The directory to save the results.")
     argparser.add_argument("--catalog", type=str, default="coffee_machines", choices=["election_articles","coffee_machines", "books", "cameras"], help="The product catalog to use.")
     argparser.add_argument("--num_iter", type=int, default=500, help="The number of iterations.")
     argparser.add_argument("--test_iter", type=int, default=20, help="The number of test iterations.")
@@ -455,7 +455,7 @@ if __name__ == "__main__":
     top_candidates = args.top_candidates
     save_state = args.save_state
     # Use models with similar tokenizers
-    model_path_llama_7b = "meta-llama/Llama-2-7b-chat-hf"
+    model_path_llama_7b = "/home/exouser/.cache/modelscope/hub/models/shakechen/Llama-2-7b-chat-hf"
     model_path_vicuna_7b = "lmsys/vicuna-7b-v1.5"
     
     batch_size = 150

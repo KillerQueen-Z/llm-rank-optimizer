@@ -1,0 +1,16 @@
+{
+    "Device(s)": [
+        "NVIDIA A100-SXM4-40GB"
+    ],
+    "Mode": "self",
+    "Model path(s)": "lmsys/vicuna-7b-v1.5",
+    "Product catalog": "data/coffee_machines.jsonl",
+    "User message type": "default",
+    "Number of iterations": 500,
+    "Test iteration interval": 20,
+    "Batch size": 150,
+    "Top candidates": 1,
+    "Shuffle product list": false,
+    "Results directory": "results3/test",
+    "Save state": false
+}

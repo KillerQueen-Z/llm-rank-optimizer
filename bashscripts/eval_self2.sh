@@ -4,11 +4,11 @@ catalog="cameras"
 num_iter=200
 user_msg_type="default"
 
-for run in 1 2 3
+for run in 1
 do
-    for product in {1..10}
+    for product in 4
     do
-        eval_dir="results/${catalog}/self/${user_msg_type}/product${product}/run${run}"
+        eval_dir="/home/exouser/vscode/llm-rank-optimizer/results2/coffee_machines/self/llama/default/product4/run1"
 
         # Check if the evaluation has already been done
         if [ -f $eval_dir/done.txt ] && grep -q "done" $eval_dir/done.txt; then
